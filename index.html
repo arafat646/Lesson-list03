@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Lesson Guide</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background: linear-gradient(135deg,
+        #090979, #301b70, #8e2de2, #4a00e0);
+    background-size: 300% 300%;
+    animation: gradient 10s ease infinite;
+    color: white;
+}
+
+@keyframes gradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding: 35px;
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 25px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #ddd;
+}
+
+.section {
+    background: rgba(255,255,255,0.10);
+    padding: 25px;
+    border-radius: 18px;
+    margin-bottom: 22px;
+}
+
+h2 {
+    color: #ffe082;
+    margin-bottom: 18px;
+}
+
+ol, ul {
+    padding-left: 28px;
+    line-height: 2.2;
+}
+
+li {
+    padding-left: 5px;
+    color: #f5f5ff;
+}
+
+li::marker {
+    color: #ffe082;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 25px;
+    color: #ddd;
+    font-size: 14px;
+}
+
+@media(max-width: 500px) {
+    .container {padding: 22px;}
+    header h1 {font-size: 29px;}
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>📚 My Lesson Guide</h1>
+        <p>Your personal learning journey starts here!</p>
+    </header>
+
+    <div class="section">
+        <h2>📖 Ordered Lesson List</h2>
+        <ol>
+            <li>Introduction to the Subject</li>
+            <li>Basic Concepts</li>
+            <li>Important Definitions</li>
+            <li>Detailed Explanation</li>
+            <li>Examples and Applications</li>
+            <li>Practice Questions</li>
+            <li>Final Revision</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>✨ Unordered Study Materials</h2>
+        <ul>
+            <li>Class Notes</li>
+            <li>Textbook</li>
+            <li>Important Questions</li>
+            <li>Previous Year Questions</li>
+            <li>Practice Sheets</li>
+            <li>Extra Learning Resources</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>🎯 Study Goals</h2>
+        <ul>
+            <li>Complete all lessons on time</li>
+            <li>Understand every topic</li>
+            <li>Practice regularly</li>
+            <li>Prepare for examinations</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>© 2026 My Lesson Guide | Learn • Practice • Succeed</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
